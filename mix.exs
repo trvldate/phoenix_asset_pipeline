@@ -106,7 +106,7 @@ defmodule PhoenixAssetPipeline.MixProject do
       links: %{
         "Changelog" => "https://hexdocs.pm/phoenix_asset_pipeline/changelog.html",
         "GitHub" => @source_url,
-        "Youimmi" => "https://youimmi.com"
+        "Efate" => "https://trvldate.com"
       },
       maintainers: ["Yuri S."]
     ]
