@@ -2,7 +2,7 @@ defmodule PhoenixAssetPipeline.MixProject do
   use Mix.Project
 
   @minimum_otp_release 29
-  @source_url "https://github.com/Youimmi/phoenix_asset_pipeline"
+  @source_url "https://github.com/trvldate/phoenix_asset_pipeline"
   @version "7.0.0"
 
   if String.to_integer(System.otp_release()) < @minimum_otp_release do
@@ -75,7 +75,7 @@ defmodule PhoenixAssetPipeline.MixProject do
       {:plug, "~> 1.20"},
       {:rustler, "~> 0.38", runtime: false},
       {:styler, "~> 1.12", only: [:dev, :test], runtime: false},
-      {:vix, "~> 0.43.0", runtime: false}
+      {:vix, "~> 0.44.0", runtime: false}
     ]
   end
 
